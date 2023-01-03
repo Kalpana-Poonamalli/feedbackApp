@@ -1,0 +1,73 @@
+/* Write your CSS code here. */
+.feedback-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+.feedback-inner-container {
+  background-color: #ffffff;
+  width: 35vw;
+  height: 50vh;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+.feedback-heading {
+  color: #0f172a;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 28px;
+}
+.emojies {
+  display: flex;
+}
+.emoji-container {
+  padding: 10px;
+  margin: 16px;
+  list-style-type: none;
+}
+.button {
+  border: none;
+  background-color: transparent;
+}
+.emoji-button {
+  height: 75px;
+  width: 75px;
+}
+.emoji-name {
+  color: #1e293b;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.popup-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Roboto;
+  padding: 80px;
+  border-radius: 20px;
+  width: 35vw;
+}
+.love-emoji {
+  height: 48px;
+  width: 50px;
+}
+.popup-heading {
+  color: #0f172a;
+}
+.popup-para {
+  color: #1e293b;
+}
